@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PruebaApi.View.UsuarioView"
+             xmlns:VM="clr-namespace:PruebaApi.ViewModel"
+             xmlns:accion="clr-namespace:PruebaApi.Behaviors"
+             >
+    <ContentPage.BindingContext>
+        <VM:UsuarioViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Crear nuevo" Command="{Binding NuevoCommand}" />
+            <ListView
+                ItemsSource="{Binding ListaItems}"
+                SelectedItem="{Binding ItemSelccionado}"
+                accion:ItemTappedAttached.Command="{Binding EditarCommand}"
+                HasUnevenRows="True"
+                >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Usuario}" 
+                                  Detail="{Binding Password}" ></TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

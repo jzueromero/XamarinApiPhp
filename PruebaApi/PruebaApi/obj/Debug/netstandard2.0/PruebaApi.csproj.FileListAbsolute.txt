@@ -1,0 +1,14 @@
+C:\Users\CDS3UNIVO17\Source\Repos\PruebaApi\PruebaApi\PruebaApi\bin\Debug\netstandard2.0\PruebaApi.deps.json
+C:\Users\CDS3UNIVO17\Source\Repos\PruebaApi\PruebaApi\PruebaApi\bin\Debug\netstandard2.0\PruebaApi.dll
+C:\Users\CDS3UNIVO17\Source\Repos\PruebaApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\PruebaApi.csprojAssemblyReference.cache
+C:\Users\CDS3UNIVO17\Source\Repos\PruebaApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\CDS3UNIVO17\Source\Repos\PruebaApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\CDS3UNIVO17\Source\Repos\PruebaApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\PruebaApi.csproj.CoreCompileInputs.cache
+C:\Users\CDS3UNIVO17\Source\Repos\PruebaApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\PruebaApi.AssemblyInfoInputs.cache
+C:\Users\CDS3UNIVO17\Source\Repos\PruebaApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\PruebaApi.AssemblyInfo.cs
+C:\Users\CDS3UNIVO17\Source\Repos\PruebaApi\PruebaApi\PruebaApi\bin\Debug\netstandard2.0\PruebaApi.pdb
+C:\Users\CDS3UNIVO17\Source\Repos\PruebaApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\View\UsuarioEditView.xaml.g.cs
+C:\Users\CDS3UNIVO17\Source\Repos\PruebaApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\View\UsuarioView.xaml.g.cs
+C:\Users\CDS3UNIVO17\Source\Repos\PruebaApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\CDS3UNIVO17\Source\Repos\PruebaApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\PruebaApi.dll
+C:\Users\CDS3UNIVO17\Source\Repos\PruebaApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\PruebaApi.pdb
