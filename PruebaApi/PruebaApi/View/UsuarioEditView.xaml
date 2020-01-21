@@ -9,7 +9,7 @@
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <Entry Text="{Binding Usuario.Usuario}"/>
+            <Entry Text="{Binding Usuario.Usuario1}"/>
             <Entry Text="{Binding Usuario.Password}"/>
             <Button Text="guardar" Command="{Binding GuardarCommand}"/>
             <Button Text="Borrar" Command="{Binding BorrarCommand}"/>

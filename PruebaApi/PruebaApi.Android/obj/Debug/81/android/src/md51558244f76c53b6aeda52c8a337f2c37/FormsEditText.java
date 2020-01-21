@@ -2,7 +2,7 @@ package md51558244f76c53b6aeda52c8a337f2c37;
 
 
 public class FormsEditText
-	extends android.widget.EditText
+	extends md51558244f76c53b6aeda52c8a337f2c37.FormsEditTextBase
 	implements
 		mono.android.IGCUserPeer
 {
@@ -11,7 +11,6 @@ public class FormsEditText
 	static {
 		__md_methods = 
 			"n_onKeyPreIme:(ILandroid/view/KeyEvent;)Z:GetOnKeyPreIme_ILandroid_view_KeyEvent_Handler\n" +
-			"n_requestFocus:(ILandroid/graphics/Rect;)Z:GetRequestFocus_ILandroid_graphics_Rect_Handler\n" +
 			"n_onSelectionChanged:(II)V:GetOnSelectionChanged_IIHandler\n" +
 			"";
 		mono.android.Runtime.register ("Xamarin.Forms.Platform.Android.FormsEditText, Xamarin.Forms.Platform.Android", FormsEditText.class, __md_methods);
@@ -56,14 +55,6 @@ public class FormsEditText
 	}
 
 	private native boolean n_onKeyPreIme (int p0, android.view.KeyEvent p1);
-
-
-	public boolean requestFocus (int p0, android.graphics.Rect p1)
-	{
-		return n_requestFocus (p0, p1);
-	}
-
-	private native boolean n_requestFocus (int p0, android.graphics.Rect p1);
 
 
 	public void onSelectionChanged (int p0, int p1)

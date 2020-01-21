@@ -18,7 +18,7 @@ namespace PruebaApi.Repository
         public RestUsuario()
         {
             Cliente = new HttpClient();
-            Controlador = "pedidos.php/";
+            Controlador = "usuarios/";
         }
 
         public async Task DeleteTodoItemAsync(string id)
@@ -50,7 +50,8 @@ namespace PruebaApi.Repository
                 }
                 else
                 {
-                    response = await Cliente.PutAsync(uri, content);
+                    var uri2 = new Uri(string.Format(Servidor.URL + Controlador+"/"+item.Id, string.Empty));
+                    response = await Cliente.PutAsync(uri2, content);
                 }
 
                 if (response.IsSuccessStatusCode)

@@ -12,3 +12,16 @@ C:\Users\CDS3UNIVO17\Source\Repos\PruebaApi\PruebaApi\PruebaApi\obj\Debug\netsta
 C:\Users\CDS3UNIVO17\Source\Repos\PruebaApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\CDS3UNIVO17\Source\Repos\PruebaApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\PruebaApi.dll
 C:\Users\CDS3UNIVO17\Source\Repos\PruebaApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\PruebaApi.pdb
+C:\Clases\repos\XamarinConApi\PruebaApi\PruebaApi\bin\Debug\netstandard2.0\PruebaApi.deps.json
+C:\Clases\repos\XamarinConApi\PruebaApi\PruebaApi\bin\Debug\netstandard2.0\PruebaApi.dll
+C:\Clases\repos\XamarinConApi\PruebaApi\PruebaApi\bin\Debug\netstandard2.0\PruebaApi.pdb
+C:\Clases\repos\XamarinConApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Clases\repos\XamarinConApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Clases\repos\XamarinConApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\View\UsuarioEditView.xaml.g.cs
+C:\Clases\repos\XamarinConApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\View\UsuarioView.xaml.g.cs
+C:\Clases\repos\XamarinConApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\PruebaApi.AssemblyInfoInputs.cache
+C:\Clases\repos\XamarinConApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\PruebaApi.AssemblyInfo.cs
+C:\Clases\repos\XamarinConApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Clases\repos\XamarinConApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\PruebaApi.dll
+C:\Clases\repos\XamarinConApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\PruebaApi.pdb
+C:\Clases\repos\XamarinConApi\PruebaApi\PruebaApi\obj\Debug\netstandard2.0\PruebaApi.csprojAssemblyReference.cache

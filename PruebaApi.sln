@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.572
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaApi.Android", "PruebaApi\PruebaApi.Android\PruebaApi.Android.csproj", "{4281271A-E77B-4043-915A-A5C98FE1AC40}"
 EndProject
@@ -9,10 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaApi", "PruebaApi\Prue
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{81DB8213-C4C7-41D7-B8E6-74EE1F53C06B}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\..\xampp\htdocs\TestApi\.htaccess = ..\..\..\..\..\xampp\htdocs\TestApi\.htaccess
-		..\..\..\..\..\xampp\htdocs\TestApi\connection.php = ..\..\..\..\..\xampp\htdocs\TestApi\connection.php
-		..\..\..\..\..\xampp\htdocs\TestApi\pedidos.php = ..\..\..\..\..\xampp\htdocs\TestApi\pedidos.php
+		..\..\..\xampp\htdocs\TestApi\.htaccess = ..\..\..\xampp\htdocs\TestApi\.htaccess
+		..\..\..\xampp\htdocs\TestApi\connection.php = ..\..\..\xampp\htdocs\TestApi\connection.php
+		..\..\..\xampp\htdocs\TestApi\pedidos.php = ..\..\..\xampp\htdocs\TestApi\pedidos.php
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JungleUniversityWebApi", "JungleUniversityWebApi\JungleUniversityWebApi.csproj", "{B6208B43-5705-42F6-91EF-5412C069551C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{05A8C445-9BFF-4899-9708-10CA0199DD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05A8C445-9BFF-4899-9708-10CA0199DD03}.Release|Any CPU.Build.0 = Release|Any CPU
 		{05A8C445-9BFF-4899-9708-10CA0199DD03}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B6208B43-5705-42F6-91EF-5412C069551C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6208B43-5705-42F6-91EF-5412C069551C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6208B43-5705-42F6-91EF-5412C069551C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6208B43-5705-42F6-91EF-5412C069551C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

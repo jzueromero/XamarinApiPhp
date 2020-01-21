@@ -10,6 +10,8 @@ public class FormsWebViewClient
 	public static final String __md_methods;
 	static {
 		__md_methods = 
+			"n_shouldOverrideUrlLoading:(Landroid/webkit/WebView;Ljava/lang/String;)Z:GetShouldOverrideUrlLoading_Landroid_webkit_WebView_Ljava_lang_String_Handler\n" +
+			"n_shouldOverrideUrlLoading:(Landroid/webkit/WebView;Landroid/webkit/WebResourceRequest;)Z:GetShouldOverrideUrlLoading_Landroid_webkit_WebView_Landroid_webkit_WebResourceRequest_Handler\n" +
 			"n_onPageStarted:(Landroid/webkit/WebView;Ljava/lang/String;Landroid/graphics/Bitmap;)V:GetOnPageStarted_Landroid_webkit_WebView_Ljava_lang_String_Landroid_graphics_Bitmap_Handler\n" +
 			"n_onPageFinished:(Landroid/webkit/WebView;Ljava/lang/String;)V:GetOnPageFinished_Landroid_webkit_WebView_Ljava_lang_String_Handler\n" +
 			"n_onReceivedError:(Landroid/webkit/WebView;ILjava/lang/String;Ljava/lang/String;)V:GetOnReceivedError_Landroid_webkit_WebView_ILjava_lang_String_Ljava_lang_String_Handler\n" +
@@ -32,6 +34,22 @@ public class FormsWebViewClient
 		if (getClass () == FormsWebViewClient.class)
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.FormsWebViewClient, Xamarin.Forms.Platform.Android", "Xamarin.Forms.Platform.Android.WebViewRenderer, Xamarin.Forms.Platform.Android", this, new java.lang.Object[] { p0 });
 	}
+
+
+	public boolean shouldOverrideUrlLoading (android.webkit.WebView p0, java.lang.String p1)
+	{
+		return n_shouldOverrideUrlLoading (p0, p1);
+	}
+
+	private native boolean n_shouldOverrideUrlLoading (android.webkit.WebView p0, java.lang.String p1);
+
+
+	public boolean shouldOverrideUrlLoading (android.webkit.WebView p0, android.webkit.WebResourceRequest p1)
+	{
+		return n_shouldOverrideUrlLoading (p0, p1);
+	}
+
+	private native boolean n_shouldOverrideUrlLoading (android.webkit.WebView p0, android.webkit.WebResourceRequest p1);
 
 
 	public void onPageStarted (android.webkit.WebView p0, java.lang.String p1, android.graphics.Bitmap p2)
